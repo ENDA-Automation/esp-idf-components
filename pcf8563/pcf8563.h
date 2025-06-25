@@ -24,3 +24,4 @@ esp_err_t pcf8563_reset(i2c_dev_t *dev);
 esp_err_t pcf8563_set_time(i2c_dev_t *dev, struct tm *time);
 esp_err_t pcf8563_get_time(i2c_dev_t *dev, struct tm *time);
 #endif /* MAIN_PCF8563_H_ */
+
